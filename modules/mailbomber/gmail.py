@@ -27,7 +27,7 @@ $$ |      $$ |  $$ |$$ | $$ | $$ |$$ | $$ | $$ |$$  __$$ |$$ |      $$   ____|  
                                                                                                                                                                           
                                                                                                                                                                           6
 
-    """  + END+BLUE+'cumware email rifle'.format(RED, END).center(69) +
+    """  + END+BLUE+'cumware email rifle (USE AT YOUR OWN RISK, THERE ARENT PROXIES ON THIS NOR ANY PROPER OBFUSCATION)'.format(RED, END).center(69) +
     '\n' + '\tGmail bomber by {}cumware'.format(YELLOW, RED, YELLOW, BLUE).center(76) +
     '\n' + '\tcumwares greatest weapon ever since the pope existed\n'.format(YELLOW).center(80) +
     '\n' + '\tversion: {}69420.69{}\n'.format(YELLOW, END).center(80) + '\n')
