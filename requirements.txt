@@ -1,0 +1,12 @@
+requests
+cfscrape
+fake_headers
+bs4
+colorama
+validators
+aiohttp
+kamene
+colorama
+requests
+flask_ngrok
+trio
