@@ -4,7 +4,7 @@
 
 <p align="center">
 <h1 align="center"> pwnmap </h1>
-<h3 align="center"> a simple osint framework. </h3>
+<h3 align="center"> a simple osint gathering model. </h3>
   </p>
   
 website: [0day.cfd](https://0day.cfd)
