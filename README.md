@@ -1,5 +1,5 @@
 # pwnmap osint
-website: http://0day.cfd
+website: https://0day.cfd
 
 pwnmap is an open source intelligence framework that allows users to remotely scrape database breaches using the leaked wiki, construct obfuscated exploits,
 and accurately provide a good forefront on gathering data.
