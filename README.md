@@ -18,15 +18,26 @@ just finished revamping most of my old code on /app, /command, /logger and /modu
 
 
 i probably will change the name soon
+
 ideas:
-breachware
+
+breachware 
+
 leakware
+
 leakbin
+
 crackware
+
 pwnware
+
 breachshell
+
 leakshell
+
 breachmap
+
 crackmap
+
 pwnmap
 
