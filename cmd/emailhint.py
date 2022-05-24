@@ -1,8 +1,8 @@
 import os
 
-from cumware.command import Command
-from cumware.logger import Logger
-from cumware.type import Email
+from pwnmap.command import Command
+from pwnmap.logger import Logger
+from pwnmap.type import Email
 
 
 class EmailHintCommand(Command):

@@ -7,16 +7,16 @@ import os
 
 from typing import Union
 
-from cumware.module import Module, ModuleWrapper
-from cumware.util import PathUtil, ConsoleUtil
-from cumware.command import Shell
-from cumware.logger import Logger
+from pwnmap.module import Module, ModuleWrapper
+from pwnmap.util import PathUtil, ConsoleUtil
+from pwnmap.command import Shell
+from pwnmap.logger import Logger
 
 
 class Application:
 
     class __ConfigManager:
-        """ cumware config"""
+        """ pwnmap config"""
 
         def __init__(self, filepath: str):
             config_parser = configparser.ConfigParser()
@@ -36,7 +36,7 @@ class Application:
             return getattr(self, attrb) if hasattr(self, attrb) is True else ''
 
     class __ModuleManager:
-        """ Used to manage cumware modules """
+        """ Used to manage pwnmap modules """
 
         DISABLE_PREFIX = '-'
         """ manager of module shant give a shit """
@@ -59,12 +59,12 @@ class Application:
                 mod_index = int(module) - 1
 
                 if mod_index < 0:
-                    raise Exception('how???? module gone????? daddy cumware is angry. you shall be punished tonight. uwu.')
+                    raise Exception('how???? module gone????? daddy pwnmap is angry. you shall be punished tonight. uwu.')
 
                 try:
                     mod = self.get_registered_modules()[mod_index]
                 except IndexError:
-                    raise Exception('how???? module gone????? daddy cumware is angry. you shall be punished tonight. uwu.')
+                    raise Exception('how???? module gone????? daddy pwnmap is angry. you shall be punished tonight. uwu.')
             else:
                 mod = self.get_module_by_name(module)
 
@@ -131,22 +131,22 @@ class Application:
 
     @property
     def version(self) -> str:
-        """ Get current cumware version """
+        """ Get current pwnmap version """
         with open(os.path.join('data', '.version')) as f:
             return f.read()
 
     def start(self):
         """ Start application """
         ConsoleUtil.clear_screen()
-        ConsoleUtil.set_title('cumware v%(version)s by %(author)s')
+        ConsoleUtil.set_title('pwnmap v%(version)s by %(author)s')
         ConsoleUtil.print_banner()
 
         """#! disabled
         if self._is_up2date() is False and 1 == 0:
-            Logger.warning(f'cumware is not up to date! ({self._get_latest_version()})')
+            Logger.warning(f'pwnmap is not up to date! ({self._get_latest_version()})')
             Logger.nl()
     
-            Logger.info('Please run: \x1b[94mpip install cumware --upgrade\x1b[0m to install the latest version of cumware OSINT Framework.')
+            Logger.info('Please run: \x1b[94mpip install pwnmap --upgrade\x1b[0m to install the latest version of pwnmap OSINT Framework.')
             Logger.nl()
 
             dont_exit = ConsoleUtil.yn_prompt('\x1b[95m• \x1b[0mContinue? (Y/n): ') is True
@@ -161,7 +161,7 @@ class Application:
         self.__shell.start()
 
     def _is_up2date(self) -> bool:
-        """ Check if cumware is up to date """
+        """ Check if pwnmap is up to date """
         latest_version = self._get_latest_version()
 
         if len(latest_version) == 0:
@@ -171,7 +171,7 @@ class Application:
 
     def _get_latest_version(self):
         try:
-            res = requests.get('https://raw.githubusercontent.com/cumware-Team/cumware/main/data/.version')
+            res = requests.get('https://raw.githubusercontent.com/pwnmap-Team/pwnmap/main/data/.version')
 
             if res.status_code == 200:
                 return res.text

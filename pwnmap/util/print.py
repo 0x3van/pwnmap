@@ -1,4 +1,4 @@
-from cumware.logger import Logger
+from pwnmap.logger import Logger
 
 
 class PrintUtil:

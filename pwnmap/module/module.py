@@ -2,7 +2,7 @@ from abc import ABC, abstractproperty, abstractmethod
 
 
 class Module(ABC):
-    """ cumware module blueprint """
+    """ pwnmap module blueprint """
 
 
     @abstractproperty

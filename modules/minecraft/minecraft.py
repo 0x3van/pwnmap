@@ -3,11 +3,11 @@ import datetime
 import base64
 import json
 
-from cumware.module import Module
-from cumware.util import UUIDUtil, PrintUtil
+from pwnmap.module import Module
+from pwnmap.util import UUIDUtil, PrintUtil
 
 
-class cumwareModule(Module):
+class pwnmapModule(Module):
     description = 'Get Minecraft account information by username/UUID'
     author = 'evan'
     date = '04-20-2022'

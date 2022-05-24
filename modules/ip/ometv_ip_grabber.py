@@ -2,11 +2,11 @@ import ipaddress
 import datetime
 import kamene.all as kamene
 
-from cumware.module import Module
-from cumware.util import GeoIP
+from pwnmap.module import Module
+from pwnmap.util import GeoIP
 
 # truly amazing code 
-class cumwareModule(Module):
+class pwnmapModule(Module):
     description = 'Grab IP-addresses on Ome.TV'
     author = 'evan'
     date = '05-01-2022'

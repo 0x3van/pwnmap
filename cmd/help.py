@@ -1,6 +1,6 @@
-from cumware.command import Command
-from cumware.util import BoxUtil
-from cumware.logger import Logger
+from pwnmap.command import Command
+from pwnmap.util import BoxUtil
+from pwnmap.logger import Logger
 
 
 class HelpCommand(Command):

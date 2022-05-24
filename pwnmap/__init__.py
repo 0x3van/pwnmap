@@ -1,4 +1,4 @@
-from cumware.app import Application
+from pwnmap.app import Application
 
 
 __app__ = Application()

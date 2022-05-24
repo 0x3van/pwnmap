@@ -1,11 +1,11 @@
-from cumware.command import Command
+from pwnmap.command import Command
 
-import cumware
+import pwnmap
 
 
 class CreditsCommand(Command):
     name = 'credits'
-    description = 'Show cumware OSINT Framework credits'
+    description = 'Show pwnmap OSINT Framework credits'
     aliases = 'credit', 'info', 'about'
 
     @Command.execute
@@ -18,12 +18,12 @@ class CreditsCommand(Command):
 |___|_| \_\___|____/ 
                       
 
-cumware version {cumware.__version__}: an open-source intelligence framework 
+pwnmap version {pwnmap.__version__}: an open-source intelligence framework 
 
-Developed by {cumware.__author__}
+Developed by {pwnmap.__author__}
 
 GitHub:
-    https://github.com/cumware-Team/cumware-Framework.git
+    https://github.com/pwnmap-Team/pwnmap-Framework.git
 
 Twitter:
     https://www.twitter.com/elordcs

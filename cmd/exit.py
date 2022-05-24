@@ -1,11 +1,11 @@
 import sys
 
-from cumware.command import Command
+from pwnmap.command import Command
 
 
 class ExitCommand(Command):
     name = 'exit'
-    description = 'Exit cumware OSINT Framework. fuck you for leaving me.'
+    description = 'Exit pwnmap OSINT Framework. fuck you for leaving me.'
     aliases = 'q', 'quit'
 
     @Command.execute

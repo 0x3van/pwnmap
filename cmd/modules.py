@@ -1,7 +1,7 @@
-import cumware
+import pwnmap
 
-from cumware.command import Command
-from cumware.util import BoxUtil
+from pwnmap.command import Command
+from pwnmap.util import BoxUtil
 
 
 class ModulesCommand(Command):
@@ -20,7 +20,7 @@ class ModulesCommand(Command):
                     'Author': mod.instance.author,
                     'Description': mod.instance.description
                 }
-                for i, mod in enumerate(cumware.__app__.modules.get_registered_modules())
+                for i, mod in enumerate(pwnmap.__app__.modules.get_registered_modules())
             ],
             title='Modules',
             show_keys=True,

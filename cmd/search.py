@@ -1,7 +1,7 @@
-import cumware
+import pwnmap
 
-from cumware.command import Command
-from cumware.util import BoxUtil
+from pwnmap.command import Command
+from pwnmap.util import BoxUtil
 
 
 class SearchCommand(Command):
@@ -14,7 +14,7 @@ class SearchCommand(Command):
 
         mods = []
 
-        for i, mod in enumerate(cumware.__app__.modules.get_registered_modules()):
+        for i, mod in enumerate(pwnmap.__app__.modules.get_registered_modules()):
             check = any([
                 all([x in mod.name.lower() for x in keywords.split(' ')]),
                 all([x in  mod.instance.description.lower() for x in keywords.split(' ')])

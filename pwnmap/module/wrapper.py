@@ -45,7 +45,7 @@ class ModuleWrapper:
 
     @property
     def instance(self) -> "Module":
-        """ Get cumware module instance """
+        """ Get pwnmap module instance """
         return self.__instance
 
     @property

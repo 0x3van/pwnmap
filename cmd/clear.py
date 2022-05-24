@@ -1,5 +1,5 @@
-from cumware.command import Command
-from cumware.util import ConsoleUtil
+from pwnmap.command import Command
+from pwnmap.util import ConsoleUtil
 
 
 class ClearCommand(Command):

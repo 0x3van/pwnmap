@@ -1,6 +1,6 @@
-from cumware.command import Command
-from cumware.util import PrintUtil, GeoIP
-from cumware.type import IPv4Address
+from pwnmap.command import Command
+from pwnmap.util import PrintUtil, GeoIP
+from pwnmap.type import IPv4Address
 
 
 class IPLookupCommand(Command):

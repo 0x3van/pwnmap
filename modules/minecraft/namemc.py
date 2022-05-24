@@ -2,11 +2,11 @@ import requests
 import cfscrape
 import bs4
 
-from cumware.module import Module
-from cumware.util import PrintUtil
+from pwnmap.module import Module
+from pwnmap.util import PrintUtil
 
 
-class cumwareModule(Module):
+class pwnmapModule(Module):
     description = 'Get NameMC profile information by Minecraft username/UUID'
     author = 'evan'
     date = '04-30-2022'

@@ -5,8 +5,8 @@ import os
 
 from typing import Union
 
-from cumware.util import PathUtil
-from cumware.logger import Logger
+from pwnmap.util import PathUtil
+from pwnmap.logger import Logger
 
 from .command import Command
 from .exception import UsageException

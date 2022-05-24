@@ -15,21 +15,21 @@ END = '\033[0m'
 if len(sys.argv) < 2:
     os.system("clear || cls")
     sys.stdout.write(RED + """
-                                                                                                                      $$\ $$\                 $$\  $$$$$$\  $$\           
-                                                                                                                      \__|$$ |                \__|$$  __$$\ $$ |          
- $$$$$$$\ $$\   $$\ $$$$$$\$$$$\  $$\  $$\  $$\  $$$$$$\   $$$$$$\   $$$$$$\         $$$$$$\  $$$$$$\$$$$\   $$$$$$\  $$\ $$ |       $$$$$$\  $$\ $$ /  \__|$$ | $$$$$$\  
-$$  _____|$$ |  $$ |$$  _$$  _$$\ $$ | $$ | $$ | \____$$\ $$  __$$\ $$  __$$\       $$  __$$\ $$  _$$  _$$\  \____$$\ $$ |$$ |      $$  __$$\ $$ |$$$$\     $$ |$$  __$$\ 
-$$ /      $$ |  $$ |$$ / $$ / $$ |$$ | $$ | $$ | $$$$$$$ |$$ |  \__|$$$$$$$$ |      $$$$$$$$ |$$ / $$ / $$ | $$$$$$$ |$$ |$$ |      $$ |  \__|$$ |$$  _|    $$ |$$$$$$$$ |
-$$ |      $$ |  $$ |$$ | $$ | $$ |$$ | $$ | $$ |$$  __$$ |$$ |      $$   ____|      $$   ____|$$ | $$ | $$ |$$  __$$ |$$ |$$ |      $$ |      $$ |$$ |      $$ |$$   ____|
-\$$$$$$$\ \$$$$$$  |$$ | $$ | $$ |\$$$$$\$$$$  |\$$$$$$$ |$$ |      \$$$$$$$\       \$$$$$$$\ $$ | $$ | $$ |\$$$$$$$ |$$ |$$ |      $$ |      $$ |$$ |      $$ |\$$$$$$$\ 
- \_______| \______/ \__| \__| \__| \_____\____/  \_______|\__|       \_______|       \_______|\__| \__| \__| \_______|\__|\__|      \__|      \__|\__|      \__| \_______|
+                                               
+                                             
+  _ ____      ___ __  _ __ ___   __ _ _ __   
+ | '_ \ \ /\ / / '_ \| '_ ` _ \ / _` | '_ \  
+ | |_) \ V  V /| | | | | | | | | (_| | |_) | 
+ | .__/ \_/\_/ |_| |_|_| |_| |_|\__,_| .__/  
+ | |                                 | |     
+ |_|                                 |_|     
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           6
 
-    """  + END+BLUE+'cumware email rifle (USE AT YOUR OWN RISK, THERE ARENT PROXIES ON THIS NOR ANY PROPER OBFUSCATION)'.format(RED, END).center(69) +
-    '\n' + '\tGmail bomber by {}cumware'.format(YELLOW, RED, YELLOW, BLUE).center(76) +
-    '\n' + '\tcumwares greatest weapon ever since the pope existed\n'.format(YELLOW).center(80) +
+    """  + END+BLUE+'pwnmap email rifle (USE AT YOUR OWN RISK, THERE ARENT PROXIES ON THIS NOR ANY PROPER OBFUSCATION)'.format(RED, END).center(69) +
+    '\n' + '\tGmail bomber by {}pwnmap'.format(YELLOW, RED, YELLOW, BLUE).center(76) +
+    '\n' + '\tpwnmaps greatest weapon ever since the pope existed\n'.format(YELLOW).center(80) +
     '\n' + '\tversion: {}69420.69{}\n'.format(YELLOW, END).center(80) + '\n')
 else:
     sys.exit('Usage: python gmail.py')
@@ -55,15 +55,15 @@ while i < count:
     i+=1
     server.sendmail(email,vemail,message)
     if i == 1:
-        print (LightCyan+'[cumware status report] '+YELLOW+' %dst email rifle has been fired: enemy down. ' %(i))
+        print (LightCyan+'[pwnmap status report] '+YELLOW+' %dst email rifle has been fired: enemy down. ' %(i))
     elif i == 2:
-        print (LightCyan+'[cumware status report] '+YELLOW+' %dnd email rifle has been fired: enemy down. ' %(i))
+        print (LightCyan+'[pwnmap status report] '+YELLOW+' %dnd email rifle has been fired: enemy down. ' %(i))
     elif i == 3:
-        print (LightCyan+'[cumware status report] '+YELLOW+' %drd email rifle has been fired: enemy down. ' %(i))
+        print (LightCyan+'[pwnmap status report] '+YELLOW+' %drd email rifle has been fired: enemy down. ' %(i))
     else:
-        print (LightCyan+'[cumware status report] '+YELLOW+' %dth email rifle has been fired: enemy down. ' %(i))
+        print (LightCyan+'[pwnmap status report] '+YELLOW+' %dth email rifle has been fired: enemy down. ' %(i))
     sys.stdout.flush()
 server.quit()
-print(LightCyan+'[cumware status report] '+YELLOW+'All done'+END)
+print(LightCyan+'[pwnmap status report] '+YELLOW+'All done'+END)
 
 

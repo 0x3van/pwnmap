@@ -1,7 +1,7 @@
-import cumware
+import pwnmap
 
-from cumware.command import Command
-from cumware.command.exception import UsageException, ArgumentValueError
+from pwnmap.command import Command
+from pwnmap.command.exception import UsageException, ArgumentValueError
 
 
 def custom_usage_decorator(fn):
@@ -9,7 +9,7 @@ def custom_usage_decorator(fn):
         if len(fn_args) - 1 >= 1:
             module = fn_args[1]
 
-            mod = cumware.__app__.modules.get_module(module)
+            mod = pwnmap.__app__.modules.get_module(module)
 
             if len(fn_args) - 1 < 1 + len(mod.execute_method_parameters):
                 raise UsageException(mod.name + ' ' + ' '.join(f'<{arg_name.replace("__", "/").replace("_", " ")}>' for arg_name in mod.execute_method_parameters.keys()))
@@ -33,7 +33,7 @@ class UseCommand(Command):
     @custom_usage_decorator
     @Command.execute
     def run(self, module: str, module_arguments: tuple):
-        mod = cumware.__app__.modules.get_module(module)
+        mod = pwnmap.__app__.modules.get_module(module)
     
         kwargs = {}
 

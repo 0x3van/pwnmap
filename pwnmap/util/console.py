@@ -2,16 +2,16 @@ import subprocess
 import random
 import os
 
-from cumware.logger import Logger
+from pwnmap.logger import Logger
 
-import cumware
+import pwnmap
 
 
 class ConsoleUtil:
     __BANNER = '''
   \x1b[96m  ___ _   _ _ __ _____      ____ _ _ __ ___   
   \x1b[96m/ __| | | | '_ ` _ \ \ /\ / / _` | '__/ _ \  \x1b[0mrevamped by %(author)s\x1b[0m
-  \x1b[96m| (__| |_| | | | | | \ V  V / (_| | | |  __/  \x1b[90m@cumware
+  \x1b[96m| (__| |_| | | | | | \ V  V / (_| | | |  __/  \x1b[90m@pwnmap
  \x1b[96m \___|\__,_|_| |_| |_|\_/\_/ \__,_|_|  \___|  \x1b[90m@ too swag\x1b[0m
   \x1b[0mv%(version)s        
 '''
@@ -24,7 +24,7 @@ class ConsoleUtil:
     @staticmethod
     def set_title(title: str):
         """ Set console title """
-        title = title % {'author': cumware.__author__, 'version': cumware.__version__}
+        title = title % {'author': pwnmap.__author__, 'version': pwnmap.__version__}
         if os.name == 'nt':
             import ctypes
             ctypes.windll.kernel32.SetConsoleTitleW(title)
@@ -53,4 +53,4 @@ class ConsoleUtil:
     @staticmethod
     def print_banner():
         """ Print banner """
-        print(ConsoleUtil.__BANNER.lstrip(' ').replace('##', random.choice('8o.-_#|@0!/\\?+><*`´¨') * 2) % {'version': cumware.__version__, 'author': cumware.__author__} + '\x1b[0m')
+        print(ConsoleUtil.__BANNER.lstrip(' ').replace('##', random.choice('8o.-_#|@0!/\\?+><*`´¨') * 2) % {'version': pwnmap.__version__, 'author': pwnmap.__author__} + '\x1b[0m')

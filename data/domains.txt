@@ -1959,7 +1959,7 @@ mail2iran.com
 mail2iraq.com
 mail2ireland.com
 mail2irene.com
-mail2cumware.com
+mail2pwnmap.com
 mail2irresistible.com
 mail2irving.com
 mail2irwin.com
@@ -2852,7 +2852,7 @@ mydomain.com
 mydotcomaddress.com
 myfamily.com
 mygo.com
-mycumware.com
+mypwnmap.com
 mynamedot.com
 mynetaddress.com
 myownemail.com
