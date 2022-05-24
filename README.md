@@ -14,3 +14,19 @@ most of this is old code i wrote back in 2021 to try and make my own "osint" fra
 by using cumware's framework you acknowledge that the developer is not responsible for your actions or any criminal activity you commit.
 
 just finished revamping most of my old code on /app, /command, /logger and /modules.
+
+
+
+i probably will change the name soon
+ideas:
+breachware
+leakware
+leakbin
+crackware
+pwnware
+breachshell
+leakshell
+breachmap
+crackmap
+pwnmap
+
