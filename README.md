@@ -10,7 +10,7 @@
 website: [0day.cfd](https://0day.cfd)
 
 
-pwnmap is an open source intelligence framework that allows users to remotely scrape database breaches using the leaked wiki, construct obfuscated exploits,
+pwnmap is an open source intelligence framework that allows users to remotely scrape database breaches using the leaked wiki, construct obfuscated exploits, spam, attack 
 and accurately provide a good forefront on gathering data.
 
 ## real pwnmap.
