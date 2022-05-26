@@ -3,28 +3,13 @@
   </p>
 
 <p align="center">
-<h1 align="center"> pwnmap </h1>
-<h3 align="center"> a simple osint gathering model. </h3>
+<h1 align="center"> pwnmap lab </h1>
+<h3 align="center"> a simple osint gathering model laboratory. </h3>
   </p>
   
 website: [0day.cfd](https://0day.cfd)
 
 
-pwnmap is an open source intelligence framework that allows users to remotely scrape database breaches using the leaked wiki, construct obfuscated exploits, spam, attack 
-and accurately provide a good forefront on gathering data.
+pwnmap lab is an experimental branch of pwnmap. Use at your own caution.
 
-## real pwnmap.
-most of this is old code i wrote back in 2021 to try and make my own "osint" framework when i reality i only wrote 3-4 files and 'heavily modified' the rest of it from breachnet.sh
-
-
-# disclaimer
-by using pwnmap's framework you acknowledge that the developer is not responsible for your actions or any criminal activity you commit.
-
-just finished revamping most of my old code on /app, /command, /logger and /modules.
-
-
-
-PWNMAP 
-
-A PROJECT BY TROLLFACE SECURITY
 
