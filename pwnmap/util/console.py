@@ -9,11 +9,13 @@ import pwnmap
 
 class ConsoleUtil:
     __BANNER = '''
-  \x1b[96m  ___ _   _ _ __ _____      ____ _ _ __ ___   
-  \x1b[96m/ __| | | | '_ ` _ \ \ /\ / / _` | '__/ _ \  \x1b[0mrevamped by %(author)s\x1b[0m
-  \x1b[96m| (__| |_| | | | | | \ V  V / (_| | | |  __/  \x1b[90m@pwnmap
- \x1b[96m \___|\__,_|_| |_| |_|\_/\_/ \__,_|_|  \___|  \x1b[90m@ too swag\x1b[0m
-  \x1b[0mv%(version)s        
+  \x1b[96m  _ ____      ___ __  _ __ ___   __ _ _ __   
+  \x1b[96m | '_ \ \ /\ / / '_ \| '_ ` _ \ / _` | '_ \   \x1b[0mrevamped by %(author)s\x1b[0m
+  \x1b[96m | |_) \ V  V /| | | | | | | | | (_| | |_) |  \x1b[90m@pwnmap
+ \x1b[96m  | .__/ \_/\_/ |_| |_|_| |_| |_|\__,_| .__/   \x1b[90m@ too swag\x1b[0m
+ \x1b[96m  | |                                 | |     \x1b[90m@ dwi\x1b[0m
+ \x1b[96m  |_|                                 |_|      \x1b[90m@ \x1b[0m                                      
+  \x1b[0mv%(version)s                                  \x1b[90m@ \x1b[0m
 '''
 
     @staticmethod
