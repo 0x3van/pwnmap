@@ -10,6 +10,6 @@
 website: [0day.cfd](https://0day.cfd)
 
 
-pwnmap lab is an experimental branch of pwnmap. Use at your own caution.
+pwnmap lab is an experimental branch of pwnmap. Use at your own caution. This uses an experimental Breachnet API instead to pinpoint the actual passwords you are looking for.
 
 
