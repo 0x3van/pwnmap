@@ -8,7 +8,7 @@ from pwnmap.util import PrintUtil, HTMLUtil
 class pwnmapModule(Module):
     description = 'Get social media profiles on solo.to by username'
     author = 'cs'
-    date = '28-07-2021'
+ 
 
     def execute(self, username: str):
         scraper = cfscrape.create_scraper()
